@@ -4,8 +4,8 @@
 import inquirer from "inquirer"
 
 const answer = await inquirer.prompt([
-    {message: "Entre first number", type: "number",name: "firstNumber" },
-    {message: "Entre second number", type: "number",name: "secondNumber" },
+    {message: "Entre your first number", type: "number",name: "firstNumber" },
+    {message: "Entre your second number", type: "number",name: "secondNumber" },
     {
         message: "select one of the operators to perform action",
     type: "list",
